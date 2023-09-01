@@ -24,7 +24,5 @@ public class LoopsInJavaExercise12 {
             System.out.println(x + row);
             x = "";
         }
-        System.out.println("bye");
-
     }
 }
