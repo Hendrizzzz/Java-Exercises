@@ -8,8 +8,6 @@ public class LoopsInJavaExercise12{
         int j;
         int k;
         int userInput;
-        String x = "";
-        String y = "";
 
         Scanner scanner = new Scanner (System.in);
         System.out.println("Enter a number: ");
@@ -18,14 +16,12 @@ public class LoopsInJavaExercise12{
         for (i = 1; i <= userInput; i++){            //for the amount of lines
 
             for (j = 1; j <= userInput - i; j++){    //for the amount of spaces in each line
-                x += " ";
+                System.out.print(" ");
             }
-            for (k = 1; k <= i; k++){
-                y += "*";
+            for (k = 1; k <= i; k++){               //for the amount of asterisk in each line
+                System.out.print("*");
             }
-            System.out.print(x + y);
             System.out.println();
-            x = ""; y = "";
         }
     }
 }
