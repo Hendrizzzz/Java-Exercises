@@ -1,5 +1,11 @@
 package OOP.Abstraction.Shape;
 
+/*
+Write a Java program to create an abstract class Shape with abstract methods calculateArea() 
+and calculatePerimeter(). Create subclasses Circle and Triangle that extend the Shape class and 
+implement the respective methods to calculate the area and perimeter of each shape
+ */
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -24,9 +30,6 @@ public class Main {
         }
 
     }
-
-
-
     private static int getCalculator(BufferedReader bufferedReader) {
         while(true) {
             try {
